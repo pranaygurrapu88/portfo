@@ -1,0 +1,67 @@
+Recent Activity
+Category,Source,Destination,Data,Last Seen
+Open Ports per Connection,10.160.120.87,172.16.0.87 (DHCP),"Port: HTTPS (443), Transport: TCP",09/07/2022 08:23:01
+Open Ports per Connection,10.161.45.241,172.16.0.87 (DHCP),"Port: 8883, Transport: TCP",09/07/2022 08:23:01
+Open Ports per Connection,172.16.5.20,172.16.0.87 (DHCP),"Port: 8883, Transport: TCP",09/07/2022 08:23:01
+Open Ports per Connection,B13TNHR20 (172.16.0.81) (DHCP),172.16.0.87 (DHCP),"Port: 27018, Transport: TCP",09/07/2022 08:23:01
+Open Ports per Connection,swarm (172.16.0.88) (DHCP),172.16.0.87 (DHCP),"Port: 8883, Transport: TCP",09/07/2022 08:23:01
+Open Ports per Connection,172.16.0.87 (DHCP),swarm (172.16.0.88) (DHCP),"Port: 8883, Transport: TCP",09/07/2022 08:23:01
+Channels Using Non-Standard Ports,10.161.45.241,172.16.0.87 (DHCP),"Port: 8883, Transport: TCP",09/07/2022 08:23:01
+Channels Using Non-Standard Ports,172.16.5.20,172.16.0.87 (DHCP),"Port: 8883, Transport: TCP",09/07/2022 08:23:01
+Channels Using Non-Standard Ports,B13TNHR20 (172.16.0.81) (DHCP),172.16.0.87 (DHCP),"Port: 27018, Transport: TCP",09/07/2022 08:23:01
+Channels Using Non-Standard Ports,swarm (172.16.0.88) (DHCP),172.16.0.87 (DHCP),"Port: 8883, Transport: TCP",09/07/2022 08:23:01
+Channels Using Non-Standard Ports,172.16.0.87 (DHCP),swarm (172.16.0.88) (DHCP),"Port: 8883, Transport: TCP",09/07/2022 08:23:01
+Open Ports per Connection,10.161.46.120,172.16.0.87 (DHCP),"Port: 8883, Transport: TCP",09/07/2022 08:23:00
+Open Ports per Connection,172.16.0.84 (DHCP),172.16.0.87 (DHCP),"Port: MQTT (1883), Transport: TCP",09/07/2022 08:23:00
+Open Ports per Connection,B13TNHR21 (172.16.0.82) (DHCP),172.16.0.87 (DHCP),"Port: 9000, Transport: TCP",09/07/2022 08:23:00
+Channels Using Non-Standard Ports,10.161.46.120,172.16.0.87 (DHCP),"Port: 8883, Transport: TCP",09/07/2022 08:23:00
+Channels Using Non-Standard Ports,B13TNHR21 (172.16.0.82) (DHCP),172.16.0.87 (DHCP),"Port: 9000, Transport: TCP",09/07/2022 08:23:00
+Open Ports per Connection,10.160.119.155,172.16.0.87 (DHCP),"Port: HTTPS (443), Transport: TCP",09/07/2022 08:22:59
+Open Ports per Connection,10.160.123.67,172.16.0.87 (DHCP),"Port: 8883, Transport: TCP",09/07/2022 08:22:59
+Open Ports per Connection,172.16.3.40,172.16.0.87 (DHCP),"Port: 8883, Transport: TCP",09/07/2022 08:22:59
+Open Ports per Connection,172.16.8.220,172.16.0.87 (DHCP),"Port: 8883, Transport: TCP",09/07/2022 08:22:59
+Open Ports per Connection,B13TNHR36 (10.161.45.3),172.16.0.87 (DHCP),"Port: 8883, Transport: TCP",09/07/2022 08:22:59
+Open Ports per Connection,172.16.0.87 (DHCP),swarm (172.16.0.88) (DHCP),"Port: 7946, Transport: UDP",09/07/2022 08:22:59
+Channels Using Non-Standard Ports,10.160.123.67,172.16.0.87 (DHCP),"Port: 8883, Transport: TCP",09/07/2022 08:22:59
+Channels Using Non-Standard Ports,172.16.3.40,172.16.0.87 (DHCP),"Port: 8883, Transport: TCP",09/07/2022 08:22:59
+Channels Using Non-Standard Ports,172.16.8.220,172.16.0.87 (DHCP),"Port: 8883, Transport: TCP",09/07/2022 08:22:59
+Channels Using Non-Standard Ports,B13TNHR36 (10.161.45.3),172.16.0.87 (DHCP),"Port: 8883, Transport: TCP",09/07/2022 08:22:59
+Channels Using Non-Standard Ports,172.16.0.87 (DHCP),swarm (172.16.0.88) (DHCP),"Port: 7946, Transport: UDP",09/07/2022 08:22:59
+Open Ports per Connection,swarm (172.16.0.88) (DHCP),172.16.0.87 (DHCP),"Port: 7946, Transport: TCP",09/07/2022 08:22:53
+Open Ports per Connection,172.16.0.87 (DHCP),swarm (172.16.0.88) (DHCP),"Port: 7946, Transport: TCP",09/07/2022 08:22:53
+Channels Using Non-Standard Ports,swarm (172.16.0.88) (DHCP),172.16.0.87 (DHCP),"Port: 7946, Transport: TCP",09/07/2022 08:22:53
+Channels Using Non-Standard Ports,172.16.0.87 (DHCP),swarm (172.16.0.88) (DHCP),"Port: 7946, Transport: TCP",09/07/2022 08:22:53
+Open Ports per Connection,172.16.0.87 (DHCP),swarm (172.16.0.88) (DHCP),"Port: MQTT (1883), Transport: TCP",09/07/2022 08:22:48
+Open Ports per Connection,172.16.5.20,172.16.0.87 (DHCP),"Port: MQTT (1883), Transport: TCP",09/07/2022 08:22:43
+MQIsdp Publish Information,172.16.0.87 (DHCP),172.16.5.20,Topic Name: SERVICES/442/KT49/Smart_Grinding/SM10/TM/MODULE_OUTPUT,09/07/2022 08:22:39
+MQIsdp Publish Information,172.16.5.20,172.16.0.87 (DHCP),Topic Name: SERVICES/442/KT49/Smart_Grinding/SM10/ILC/MODULE_OUTPUT,09/07/2022 08:22:39
+Open Ports per Connection,10.160.123.129,172.16.0.87 (DHCP),"Port: 8883, Transport: TCP",09/07/2022 08:22:18
+Channels Using Non-Standard Ports,10.160.123.129,172.16.0.87 (DHCP),"Port: 8883, Transport: TCP",09/07/2022 08:22:18
+Open Ports per Connection,172.16.0.85 (DHCP),172.16.0.87 (DHCP),"Port: MQTT (1883), Transport: TCP",09/07/2022 08:19:05
+Open Ports per Connection,B13TNHR21 (172.16.0.82) (DHCP),172.16.0.87 (DHCP),"Port: SSH (22), Transport: TCP",09/07/2022 07:53:09
+Open Ports per Connection,10.160.121.48,172.16.0.87 (DHCP),"Port: HTTPS (443), Transport: TCP",09/07/2022 06:17:16
+Open Ports per Connection,172.16.0.87 (DHCP),10.126.3.80,"Port: HTTPS (443), Transport: TCP",09/07/2022 05:55:10
+Protocol Versions,B13TNHR03 (172.16.0.13) (DHCP),172.16.0.87 (DHCP),"Protocol: SNMP, Revision: N/A, Version: SNMPv1",09/07/2022 03:22:14
+Plain Passwords,N/A,172.16.0.87 (DHCP),"Password: p**********, Protocol: SNMP, Password Strength: Very Weak",09/07/2022 03:22:14
+SNMP Operations,B13TNHR03 (172.16.0.13) (DHCP),172.16.0.87 (DHCP),"Data: Get request, Variable: 1.3.6.1.2.1.17",09/07/2022 03:22:14
+Open Ports per Connection,B13TNHR03 (172.16.0.13) (DHCP),172.16.0.87 (DHCP),"Port: ICMP, Transport: ICMP",09/07/2022 03:17:31
+Open Ports per Connection,10.160.121.72,172.16.0.87 (DHCP),"Port: HTTPS (443), Transport: TCP",09/07/2022 03:11:44
+Open Ports per Connection,10.160.121.169,172.16.0.87 (DHCP),"Port: HTTPS (443), Transport: TCP",08/07/2022 23:57:52
+Open Ports per Connection,10.124.73.213,172.16.0.87 (DHCP),"Port: 9000, Transport: TCP",08/07/2022 23:45:53
+Channels Using Non-Standard Ports,10.124.73.213,172.16.0.87 (DHCP),"Port: 9000, Transport: TCP",08/07/2022 23:45:53
+Open Ports per Connection,10.124.73.213,172.16.0.87 (DHCP),"Port: 9443, Transport: TCP",08/07/2022 23:41:07
+Channels Using Non-Standard Ports,10.124.73.213,172.16.0.87 (DHCP),"Port: 9443, Transport: TCP",08/07/2022 23:41:07
+Open Ports per Connection,10.124.73.213,172.16.0.87 (DHCP),"Port: HTTP (80), Transport: TCP",08/07/2022 23:40:14
+HTTP Connections,10.124.73.213,172.16.0.87 (DHCP),N/A,08/07/2022 23:40:10
+Open Ports per Connection,10.124.73.213,172.16.0.87 (DHCP),"Port: ICMP, Transport: ICMP",08/07/2022 23:39:56
+Open Ports per Connection,10.124.73.213,172.16.0.87 (DHCP),"Port: 8000, Transport: TCP",08/07/2022 23:39:55
+Channels Using Non-Standard Ports,10.124.73.213,172.16.0.87 (DHCP),"Port: 8000, Transport: TCP",08/07/2022 23:39:55
+Open Ports per Connection,10.124.73.213,172.16.0.87 (DHCP),"Port: HTTPS (443), Transport: TCP",08/07/2022 23:38:58
+Open Ports per Connection,10.124.73.213,172.16.0.87 (DHCP),"Port: SSH (22), Transport: TCP",08/07/2022 23:38:33
+SSH Connections,10.124.73.213,172.16.0.87 (DHCP),N/A,08/07/2022 23:37:04
+Empty Passwords,172.16.0.87 (DHCP),N/A,"Protocol: HTTP, Password Strength: Very Weak",08/07/2022 22:41:11
+Protocol Versions,10.124.73.213,172.16.0.87 (DHCP),"Protocol: SNMP, Revision: N/A, Version: SNMPv1",08/07/2022 22:33:02
+Open Ports per Connection,10.124.73.214,172.16.0.87 (DHCP),"Port: HTTPS (443), Transport: TCP",08/07/2022 22:21:05
+Open Ports per Connection,10.124.73.214,172.16.0.87 (DHCP),"Port: HTTP (80), Transport: TCP",08/07/2022 22:18:40
+
+
