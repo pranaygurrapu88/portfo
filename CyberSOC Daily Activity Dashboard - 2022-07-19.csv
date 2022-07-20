@@ -1,0 +1,754 @@
+SGTS Reported Time,Incident Scope,Incident Name,Location,Incident Severity,Incident Status,Incident Type,Incident Comments
+3/15/2022 16:29,IT,#69888 - LDAP: User Login Brute Force Attempt from source IP 10.155.70.250 towards destination IPs 10.124.66.7 and 10.124.66.8,France - Capgemini,Low,On-Hold,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Abdelrahim Boulahya
+**As per Parineeta Chhetri Source IP is is SNAT IP for Prod F5 VIP: vs_websso_ldap_3268 (10.155.65.54) and 10.155.65.54 is the VIP for an application used by 004 contract
+**CyberSOC waiting for Load Balancer logsource to be integrated with SIEM | CyberSOC kept ticket on hold"
+5/4/2022 5:42,IT,#74858 - Intrusion attempt detected on server H90SV30601007DB,United States,Low,On-Hold,Suspicious System behavior,"**1 server involved
+**Remediation actions sent to the security officer Brian BOWER
+**As per STEINOUR, Anthony E He received confirmation from application team | They have made some changes in the response to few a Low level Vulnerabilities | They have removed the log writing code from the API and changed the default AppPool to the 4.0RMS Api Pool
+**As confirmed by Babul, kevin and Jeremy is checking with Application team
+**Waiting for Additional Information"
+5/6/2022 16:15,IT,#75131 - Intrusion attempt detected by CrowdStrike on host H90SV30601029DB,North America,Medium,On-Hold,Suspicious System behavior,"**1 Server involved
+**Remediation actions sent to the security officer Brian Bowar
+**As confirmed by Zha, Babul, kevin and Jeremy is checking with Application team
+**Kevin and Jeremy are following up with Protect and App team
+**Waiting for additional information"
+5/19/2022 16:37,IT,#76207 - Credential access attempt detected by CrowdStrike on host 'A42LTCOUDRH-VPO',Lapeyre,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Elias Rekeibi
+**Waiting for additional information"
+5/22/2022 6:40,IT,#76421 - Possible Ransomware propagation on multiple source IPs,Denmark,Medium,On-Going,Suspicious System behavior,"**Multiple servers involved
+**Remediation actions sent to the security officer Niklas MALMQVIST
+**As confirmed by PURHONEN, Teemu This is legitimate activity done by the log collector server to try to collect logs | They required by GDI to collect logs
+**CyberSOC asked for more details to capgemini on mail
+**Waiting for additional information"
+5/26/2022 19:36,IT,#76823 - Suspicious file detected on host 'A42DT-NI2-3002',Lapeyre,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Elias Rekeibi
+**Waiting for additional information"
+5/28/2022 0:24,IT,#753271 - Multiple login failures for username CCNSVC-NBUSVR,China,Low,On-Going,Suspicious System behavior,"**1 account involved
+**Remediation actions sent to security officer Eason XIA
+**As per Rahul's discussion with Jeremy, This incident kept on hold for now
+**CyberSOC is waiting for LB(Load Balancer) logs to be integrated
+**Waiting for additional information"
+6/4/2022 8:37,IT,#77540 - Suspicious file detected on host 'A92SV000RAS01',Capgemini,Medium,On-Going,Suspicious System behavior,"**1 server involved
+**Remediation actions sent to the security officer Abdelrahim Boulahya
+As confirmed by Vinay Raavi, It was a legitimate activity | The reported RAS servers are installed with the RAS application which is helping to resolve incidents automatically to perform AH BOT operations remotely on all windows client STG servers & the exe file that started executed through service account as part of AH BOT remediation action plan which was already approved by STG stack holders | CyberSOC requested if they could whitelist the application
+**Waiting for sandboxing request with additional information"
+6/4/2022 14:47,IT,#77544 - Suspicious file detected by CrowdStrike on host LT135015,India,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Pratik PAWAR
+**As confirmed by Faizan Khan, This is a standard application used by GNO business | New hash value was observed for the file name which has been whitelisted | CyberSOC requested to whitelist the new hash value
+**Waiting for additional information"
+6/4/2022 21:17,IT,#77551 - Suspicious activity with impact on system detected on host BLAINEW,Chryso,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Bellouarak Karim
+**Waiting for additional information"
+6/6/2022 1:43,IT,#77600 - Scanning activity observed from Source IP 10.125.88.180 towards multiple internal destination IPs,France - IBM,Low,On-Going,Suspicious System behavior,"**1 Server involved
+**Remediation actions sent to the security officer Abdelrahim Boulahya
+**Waiting for additional information"
+6/7/2022 22:24,IT,#77736 - SCADA Password Crack Brute Force Attack from source 10.131.176.21,France,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Jean Baptiste MATHOT
+**As informed by SAMAKE Aboubakar, they are going to schedule meeting with internal team for understanding the scenarios
+**Waiting for additional information"
+6/10/2022 18:58,IT,#77969 - Suspicious file detected by Crowdstrike on Host A42DT-LAP-4027,Lapeyre,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Elias Rekeibi
+**Waiting for additional information"
+6/13/2022 12:59,IT,#78061 - Suspicious activity with impact on system detected on host BRONWYN-PC,Chryso,Low,On-Going,Suspicious System behavior,"**1 System involved
+**Remediation actions sent to the security officer Christian Lutz
+**Waiting for additional information"
+6/15/2022 22:44,IT,#763391 - Threat Hunting Detection of accesschk in server US0280GR,North America,Low,On-Going,Threat Hunting,"**1 Server involved
+**Detection as part of Threat Hunting process
+**Remediation actions sent to the security officer Brian BOWER
+**STEINOUR Anthony E emailed server owner Pete Roller for further investigation
+**Waiting for additional information"
+6/16/2022 1:46,IT,#78242 - Samba ServerPasswordSet Vulnerable API Request Attempt on Source 10.85.64.13,Hong Kong,Medium,On-Going,Suspicious System behavior,"**1 server involved
+**Remediation actions sent to the security officer Eason Xia
+**Local IT team is investigating
+**Waiting for additional information"
+6/16/2022 21:46,IT,#78295 - Scanning activity observed from Source IPs 10.129.43.93 and 10.129.43.90 towards multiple internal destination IPs,Lapeyre,Low,On-Going,Suspicious System behavior,"**2 systems involved
+**Remediation actions sent to the security officer Elias REKEIBI
+**Waiting for additional information"
+6/17/2022 0:22,IT,#78297 - Suspicious file detected by Crowdstrike on host LT076906,North America,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Brian Bower
+**Waiting for additional information"
+6/17/2022 18:32,IT,#78335 - Exploit attempt detected on server H90SV31000201TS,United States,Low,On-Going,Suspicious System behavior,"**1 server involved
+**Remediation actions sent to the security officer Brian BOWER
+**Waiting for additional information"
+6/20/2022 14:06,IT,#78397 - Suspicious file detected by Crowdstrike on host LT152346,India,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to security officer Pratik PAWAR
+**Waiting for additional information"
+6/20/2022 21:33,IT,#78440 - Malware detected on Host LT135619,Canada,Low,On-Going,Malware,"**1 system involved
+**Remediation actions sent to the security officer Brian BOWER
+**Waiting for additional information"
+6/22/2022 1:50,IT,#78534 - Multiple login failures for single username 4e5f099a-1682-4f19-9de9-48f659c31fc0,Azure,Medium,On-Going,Suspicious System behavior,"**1 Account involved
+**Remediation actions sent to the security officer Jean-Philippe Bialoblocki
+**Waiting for additional information"
+6/22/2022 1:35,IT,#78542 - Suspicious file detected by Crowd strike on hostname 'LT165681',United states,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Brian BOWER
+**Waiting for additional information"
+6/23/2022 21:57,IT,#78723 - Defense evasion technique detected by CrowdStrike on host 'LT130094',United States,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Brian BOWER
+**Waiting for additional information"
+6/23/2022 21:45,IT,#78734- Configuration modification attempt on AD on account A00SVC-ADFS,SGAD,Medium,On-Going,Suspicious System behavior,"**1 account involved
+**Remediation actions sent to the SGAD Team
+**As bhupesh said he had meeting with Muthukumaran,after analysis on ADFS server they found by logs that the Autover International CRM crma.autover.net was modified | Mailed to Kiran Atwaroe about this  waiting for update
+**Waiting for additional information"
+6/24/2022 14:28,IT,#78776 - Execution of Blacklisted App detected by CrowdStrike on Host A97SV50344014AP,Capgemini,Medium,On-Going,Suspicious System behavior,"**1 server involved
+**Remediation actions sent to the security officer Abdelrahim Boulahya
+**Waiting for additional information"
+6/24/2022 22:43,IT,#78804 - Defense evasion technique detected on Host LT051831,United States,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Brian BOWER
+** Anthony STEINOUR asked assistance from CyberSOC | CyberSOC informed him to connect with kevin
+**Waiting for additional information"
+6/24/2022 22:19,IT,#78806 - Defense evasion technique detected by CrowdStrike on LT160801,France,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to security officer Jean-Baptiste MATHOT
+**Waiting for additional information"
+6/24/2022 23:41,IT,#78811 - Suspicious file detected by Crowd strike on hostname 'CHRYSO-GJVJMV2',Chryso,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Bellouarak Karim
+**As confirmed by Julien RABAUD, The user has not tried to install or execute this program | They will provide us malware bytes scan to be on a safer side
+**Waiting for additional information"
+6/25/2022 22:00,IT,#78838 - Suspicious file detected on host LT166480,United States,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Brian BOWER
+**Waiting for additional information"
+6/26/2022 6:02,IT,#78852 - Multiples IDS signatures detected to AD server from Source IP 10.32.3.208 towards multiple Destination IP's,Azure,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Jean-Philippe Bialoblocki
+**Waiting for additional information"
+6/26/2022 6:25,IT,#78856 - Suspicious file detected by Crowd strike on hostname 'JEROME',Chryso,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Bellouarak Karim
+**Waiting for additional information"
+6/26/2022 21:09,IT,#78881 - Suspicious execution detected on server CDKSV0225AP0249,Denmark,Low,On-Going,Suspicious System behavior,"**1 server involved
+**Remediation actions sent to the security officer Niklas MALMQVIST
+**Waiting for additional information"
+6/27/2022 15:08,IT,#78928 - Kali domain detected from source IP 10.154.34.110 towards destination IP 10.255.255.10,France - Capgemini,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Vincent FERRIE
+**Waiting for additional information"
+6/28/2022 22:54,IT,#79090 - Fake Application detected on Host LT121179,South Africa,Low,On-Hold,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Ruan Van Der Merwe
+**As per Van Der Merwe Ruan, They are only scanning the AN1LTPF1BMQ20 | User is on two weeks leave
+**Waiting for additional information"
+6/29/2022 13:55,IT,#79125 - Multiple login failures observed for the username L04SVC-IMZeuslite,India,Low,On-Going,Suspicious System behavior,"**1 account involved
+**Remediation actions sent to security officer Pratik PAWAR
+**Waiting for additional information"
+6/29/2022 12:15,IT,#79126 - Suspicious file detected on Server CCNSVVW100PS02,China,Medium,On-Going,Malware,"**1 server involved
+**Remediation actions sent to the security officer Eason Xia
+**Waiting for additional information"
+6/29/2022 17:00,IT,#79158 - HCK Suspicious GitHub tool detected by Zscaler on source IP 24.206.46.3,United States,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Brian BOWER
+**Waiting for additional information"
+6/29/2022 19:07,IT,#79161 - Suspicious activity with impact on system detected on host CHRL0020,Chryso,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Bellouarak Karim
+**As confirmed by Mario Riccardi, It was an update done by the Dell Support Assist installed into CHRL0020 PC | The software is a Dell tool for maintaining updated drivers of the pc Dell and is installed in default on every Dell PC | CyberSOC asked some queries to be answered 
+**Waiting for additional information"
+6/29/2022 20:34,IT,#79178 - Multiple login failures for single username 'jorgen.baardson@dahl.no',Norway,Low,On-Going,Suspicious System behavior,"**1 Account involved
+**Remediation actions sent to the security officer Niklas MALMQVIST
+**As per KRISTIANSEN, Per He asked the user, he can not remember any logon problems the actual day | do not have any more information to add here| CyberSOC monitor the events next 24 hours
+**Waiting for additional information"
+6/29/2022 19:28,IT,#79180 - Suspicious activity with impact on system detected on host CHRYSO007,Chryso,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Bellouarak, Karim 
+**Waiting for additional information"
+6/30/2022 18:27,IT,"#79317 - Suspicious tool detected by Zscaler observed on source IP 10.87.16.31 from destination IP 185.199.109.153
+
+",India,Low,On-Going,Social Engineering,"**1 system involved
+**Remediation actions sent to the security officer Pratik Pawar
+**As confirmed by A Ramachandran, The user browsed google to get some details on the questions in Saint-Gobain Social Media days Quiz | CyberSOC asked some queries
+**Waiting for additional information"
+6/30/2022 19:49,IT,#79334 - Execution of Blacklisted App detected by CrowdStrike on Host A97SW505QEXA1TS,Capgemini,Medium,On-Going,Suspicious System behavior,"**1 server involved
+**Remediation actions sent to the security officer Abdelrahim Boulahya
+**Waiting for additional information"
+7/1/2022 1:22,IT,#79356 - Suspicious file detected by Crowdstrike on CPLSVGLI-A2DAO1,Poland,Medium,On-Going,Suspicious System behavior,"**1 Server involved
+**Remediation actions sent to the security officer Tomasz KOWAL
+**As confirmed by Jan CHALOUPECKY, ConsoleApp2.exe is a legitimate application written by external partner SII | They have requested the Polish team to test the software for malware via SG sandboxing service and if it is found as non-malicious then they will open a new request to AV team to get it whitelisted
+**Waiting for additional information"
+7/1/2022 1:18,IT,#79357 - Scanning activity observed from Source system LT057640 towards multiple destination IPs,France,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Jean-Baptiste MATHOT
+**As confirmed by Pierre JOP, he was just booking a hotel at the time of incident | It is suspected that the web site was asking several other platforms for lower prices
+**CyberSOC requested to share installed chrome extensions also
+**Waiting for additional information"
+7/1/2022 2:14,IT,#79361 - Suspicious file detected by Crowdstrike on LT,United States,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Brian BOWER
+**Waiting for additional information"
+7/1/2022 4:48,IT,#79365 - Scanning activity observed from Source system DT055138 towards multiple internal destination IPs,North America,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Brian BOWER
+**Waiting for additional information"
+7/1/2022 11:02,IT,#79382 - MAIL: User Login Brute Force Attempt from Source IP 10.87.1.99 towards Destination IP 10.124.75.91,India,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Pratik Pawar
+**Local IT team investigating this incident
+**Waiting for additional information"
+7/1/2022 21:50,IT,#79455 - Command and control technique detected by CrowdStrike on hostname 'LPM02AGC1',Morocco,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Pedro COSTA
+**Local IT team investigating this incident
+**Waiting for additional information"
+7/1/2022 22:22,IT,#79456 - Suspicious file download on source IP 10.139.144.195,Nordics & Baltics,Low,On-Hold,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Niklas MALMQVIST
+**As per LARSSON Henrik, User is on vacation till 25th July | PC is still disabled
+**Waiting for additional information"
+7/2/2022 13:19,IT,#79488 - Suspicious file detected by Crowdstrike on host LT163803,India,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Pratik PAWAR
+**Waiting for additional information"
+7/4/2022 15:02,IT,#79591 - Defense evasion technique detected by CrowdStrike on host LT154579,India,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Pratik PAWAR
+**Waiting for additional information"
+7/4/2022 18:42,IT,#79609 - Multiples IDS signatures detected to AD server from Source IP 10.32.3.208 towards multiple Destination IP's,Azure,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Jean-Philippe Bialoblocki
+**Waiting for additional information"
+7/4/2022 21:24,IT,#79623 - Login attempt made using expired account from the username N1305482,France,Low,On-Going,Suspicious System behavior,"**1 Account involved
+**Remediation actions sent to the security officer Samek Aboubakar
+**Waiting for additional information"
+7/4/2022 17:46,IT,#79626- Account added in sensitive security group on AD,France - IBM,Low,On-Going,Suspicious System behavior,"**1 account involved
+**Remediation actions sent to security officer Abdelrahim Boulahya
+**Waiting for additional information"
+7/4/2022 22:14,IT,#79649 - Suspicious file detected by Crowdstrike on LT107767,France,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Aboubakar SAMAKE
+**Waiting for additional information"
+7/8/2022 18:37,IT,#79696 - Web server communication with known malicious IPs,France-Capgemini,Low,On-Going,Suspicious System behavior,"**Multiple IPs involved
+**Remediation actions sent to the security officer Boulahya Abdelrahim
+**Waiting for additional information"
+7/5/2022 22:53,IT,#79723 - Suspicious file detected on host FARAUJO,Chryso,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Christian Lutz
+**Waiting for additional information"
+7/5/2022 22:18,IT,#79724 - Suspicious file detected on host CHRYSO-5D4ZJ03,Chryso,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Christian Lutz
+**Waiting for additional information"
+7/6/2022 2:40,IT,#79801 - Suspicious file detected by Crowdstrike on host LT112974,North America,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to security officer Brian BOWER
+**Waiting for additional information"
+7/6/2022 16:29,IT,#79832 - Suspicious file detected by Crowdstrike on host L09WSWDA0092,India,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Pratik PAWAR
+**Waiting for additional information"
+7/6/2022 18:02,IT,#79842 - Suspicious file detected by Crowdstrike on CHRL0038,Chryso,Low,On-Going,Malware,"**1 system involved
+**Remediation actions sent to the security officer Karim Bellarouk
+**As confirmed by Mario Riccardi, This is an application that they have written and was whitelisted previously REQSD3724548 | File with different hash value has been blocked in this incident | CyberSOC has asked to whitelist the new executable
+**Waiting for additional information"
+7/6/2022 23:50,IT,#79874 - Suspicious SMTP traffic seen from Source IP 10.155.135.242 towards Destination IP :10.124.75.91 on Port 25,Capgemini,Low,On-Going,Suspicious System behavior,"**1 server involved
+**Remediation actions sent to the security officer Abdelrahim Boulahya
+**Waiting for the additional information"
+7/7/2022 13:02,IT,#79922 - HCK Suspicious GitHub tool detected by Zscaler on source 176.88.204.178,Turkey,Medium,On-Going,Suspicious System behavior,"**1 System involved
+**Remediation actions sent to the security officer Enis Simsek
+**Waiting for additional information"
+7/7/2022 14:47,IT,#79928 - Suspicious file detected on host 'LT062172',India,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Pratik PAWAR
+**Waiting for additional information"
+7/7/2022 19:23,IT,#79943 - Suspicious tool detected by Zscaler from source IP '10.128.81.113',France,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Jean Baptiste MATHOT
+**Waiting for additional information"
+7/7/2022 22:43,IT,#79984 - Exploit attempt detected on host LT063645,North America,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Anthony STEINOUR
+**Waiting for additional information"
+7/8/2022 1:32,IT,"#80003 - Fake application detected on Host LT133059
+
+",North America,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to security officer Brian BOWER
+**Waiting for additional information"
+7/8/2022 9:18,IT,#80041 - Suspicious activity with impact on system detected on Host 'LT104836',United states,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Brian Bower
+**Anthony said Beyond compare is legit CyberSoc informed to raise whitelist request
+**Waiting for additional information"
+7/8/2022 13:23,IT,#80101 - Suspicious GitHub tool detected by Zscaler on source 10.146.138.38,France,Low,On-Going,Suspicious System behavior,"**1 System involved
+**Remediation actions sent to the security officer Jean Baptiste MATHOT
+**Waiting for additional information"
+7/8/2022 20:21,IT,#80113 - Suspicious file detected on host A42TSLAPMAGGUA,Lapeyre,Medium,On-Going,Suspicious System behavior,"**1 server involved
+**Remediation actions sent to the security officer Elias Rekeibi
+**As confirmed by Rachid CHAREF, The use of the executable 'master' is legitimate | They are in a period of migration | CyberSOC requested to get the executable whitelisted
+**Waiting for additional information"
+7/8/2022 19:43,IT,#80135 - Defense evasion technique detected on host 'L09LTBLRM703',India,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Pratik PAWAR
+**Waiting for additional information"
+7/8/2022 22:20,IT,#80145 - Suspicious file detected by Crowd strike on hostname 'LT076338',Germany,Low,On-Going,Suspicious System behavior,"**1 System involved
+**Remediation actions sent to the security officer Edmund CLEUVERS
+**As confirmed by Thomas Schmidt, The user uses the internal calculation program ""ISOVER TechCalc"" for his daily work | From time to time it performs a reinstall
+**As per Schmidt Thomas, User not started software | Folder was hidden at mentioned path and it was last used in 2014 | user is not sure about this software so user will ask his colleagues | CyberSOC raised some queries to be verified
+**Waiting for additional information"
+7/9/2022 15:47,IT,#80213 - Scanning activity observed from Source system LT043448 towards multiple internal destination IPs,United States,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Brian BOWER
+**Waiting for additional information"
+7/9/2022 17:04,IT,#80214 - HCK Suspicious GitHub tool detected by Zscaler on source IP 88.121.3.80,France,Low,On-Going,Suspicious System behavior,"**1systems involved
+**Remediation actions sent to the security officer Jean-Baptiste MATHOT
+**Waiting for additional information"
+7/11/2022 15:14,IT,#80285 - Suspicious file detected on host DT124186,India,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Pratik PAWAR
+**Waiting for additional information"
+7/11/2022 17:37,IT,#80288 - Persistence technique detected by CrowdStrike on Hostname 'L00REGAP01',India,Low,On-Going,Suspicious System behavior,"**1 server involved
+**Remediation actions sent to security officer Pratik PAWAR
+**Waiting for additional information"
+7/11/2022 15:22,IT,#80289 - Suspicious file detected by Crowdstrike on host AG9LTMOROPT62,Indonesia,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to security officer Eason XIA
+**Waiting for additional information"
+7/11/2022 21:19,IT,#80301 - Suspicious file detected by Crowd strike on hostname 'LT142891',Kazakhstan,Low,On-Going,Suspicious System behavior,"**1 System involved
+**Remediation actions sent to the security officer Aleksander PROKUSOV
+**Local IT team is investigating the incident
+**Waiting for additional information"
+7/11/2022 21:51,IT,#80334 - HCK Suspicious GitHub tool detected by Zscaler on source IP 89.66.108.186,Poland,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to security officer Tomasz KOWAL
+**Waiting for additional information"
+7/12/2022 2:24,IT,#80338 - A member was added to a security-enabled local group on server ampsv033ion0p,France - IBM,Medium,On-Going,Suspicious System behavior,"**1 server involved
+**Remediation actions sent to the security officer Vincent FERRIE
+**Waiting for additional information"
+7/12/2022 0:19,IT,#80340 - Defense evasion technique detected by CrowdStrike on host 'DT112499',Canada,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Brian BOWER
+**Waiting for additional information"
+7/12/2022 7:30,IT,#80342 - Command and control technique detected on host LT117647,Argentina ,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Ademir Aparecido Ribeiro CAMPOS
+**Waiting for additional information"
+7/12/2022 3:02,IT,#778423 - Theft of digital asset LT138227,France,Low,On-Going,Digital Asset Theft / Lost,"**1 system involved (Laptop Theft)
+**Remediation actions sent to the security officer Jean Baptiste MATHOT
+**Digital Certificate has been revoked
+**System quarantine from crowdstrike"
+7/12/2022 15:53,IT,#80365 - Suspicious file detected on Host LT095029,India,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Pratik PAWAR
+**Waiting for additional information"
+7/12/2022 16:33,IT,#80391 - Defense evasion technique detected by CrowdStrike on host 'DT110887',France,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Julien Misantrope
+**Waiting for additional information"
+7/12/2022 17:19,IT,#80393 - Persistence technique detected by CrowdStrike on host 'AN1DTPC2AV11P',South Africa,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Ruan Van Der Merwe
+**Waiting for additional information"
+7/12/2022 19:54,IT,#80397 - Suspicious file detected on host 'L12LTSLVA0007',India,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Pratik PAWAR
+**Waiting for additional information"
+7/12/2022 20:35,IT,#80403 - Suspicious file detected on host 'L12LTHYD0012',India,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Pratik PAWAR
+**Waiting for additional information"
+7/12/2022 20:15,IT,#80416 - Suspicious activity with impact on system detected by CrowdStrike on host LT149354,France,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer  Aboubakar SAMAKE
+**Waiting for additional information"
+7/12/2022 21:48,IT,#80425 - Exploit attempt detected by CrowdStrike on host DT101069,France,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to security officer Jean-Baptiste MATHOT
+**Waiting for additional information"
+7/13/2022 0:38,IT,#80439 - Suspicious file detected by Crowd strike on hostname 'LT087948 ',Brazil,Low,On-Going,Suspicious System behavior,"**1 System involved
+**Remediation actions sent to the security officer Ademir Aparecido Ribeiro CAMPOS
+**Waiting for additional information"
+7/13/2022 3:28,IT,#80440 - Suspicious file detected on server CUSSV0552TS04,United States,Low,On-Going,Suspicious System behavior,"**1 server involved
+**Remediation actions sent to the security officer Brian BOWER
+**Waiting for additional information"
+7/13/2022 9:48,IT,#80456 - Suspicious GitHub tool detected by Zscaler from user sai.salian@saint-gobain.com,Australia,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Eason XIA
+**Waiting for additional information"
+7/18/2022 15:48,IT,#80460 - Suspicious GitHub tool detected by Zscaler from user michael.ngo@dahl.no,Norway,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Niklas MALMQVIST
+**We have created three SNOW for this incident | Norway_01 Estonia_02 and Sweden_01
+**Waiting for additional Information"
+7/13/2022 14:25,IT,#80474 - HCK Suspicious GitHub tool detected by Zscaler on source 10.231.31.137,Spain,Low,On-Going,Suspicious System behavior,"**1 System involved
+**Remediation actions sent to the security officer Alberto CARNICERO CACERES
+**Waiting for additional information"
+7/13/2022 17:57,IT,#80484 - Suspicious GitHub tool detected by Zscaler from user hugo.campos@saint-gobain.com,Brazil,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Ademir Aparecido Ribeiro CAMPOS
+**Waiting for additional information"
+7/13/2022 15:27,IT,#80493 - Suspicious tool detected by Zscaler observed on source IP 10.218.232.40 from destination IP 185.199.109.153,Switzerland,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to security officer Tobias Torke
+**Waiting for additional information"
+7/13/2022 16:06,IT,#80525 - Fake Application detected by Crowdstrike on host 'L07LTSEPR090131',India,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Pratik PAWAR
+**As per Dileesh PD, It is a laptop computer and User is also not available till Monday(18th July 2022)
+**Waiting for additional information"
+7/13/2022 18:25,IT,#80552 - High volume of Kerberos service ticket requests from account name 'WA92R7607686999',France - Capgemini,Medium,On-Going,Suspicious System behavior,"**1 Server involved
+**Remediation actions sent to the security officer Abdelrahim Boulahya
+**Waiting for additional information"
+7/13/2022 22:04,IT,#80575 - Injection attack detected containing HTTP SQL Injection Attempt on host 'LT108478',France,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Aboubakar SAMAKE
+**Waiting for additional information"
+7/14/2022 0:13,IT,#80590 - HCK Suspicious tool detected on LT123641,North America,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Brian Bower
+**Waiting for additional information"
+7/14/2022 6:06,IT,#80612 - HCK Suspicious GitHub tool detected by Zscaler on source IP 174.104.154.137,United states,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Brian BOWER
+**Waiting for additional information"
+7/14/2022 14:15,IT,#80632 - Suspicious file detected by Crowd strike on hostname 'K01LT-XZF072',China,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Eason XIA
+**Waiting for additional Information"
+7/14/2022 18:35,IT,#80657 - Execution of Blacklisted App detected on host 'AP6WS-SZD84',Portugal,Low,On-Going,Suspicious System behavior,"**1 server involved
+**Remediation actions sent to the security officer Alberto CARNICERO CACERES
+**SGTS team requested the IT manager to open the necessary REQSD3827487 to uninstall Teamviewer
+**Waiting for additional information"
+7/14/2022 17:58,IT,#80682 - Suspicious tool detected by Zscaler observed on source IP 10.226.131.251,Nordics,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to security officer Niklas MALMQVIST
+**As per LARSSON, Henrik PC has been disabled for now and he will investigate tomorrow because users that login are not available
+**Waiting for additional information"
+7/14/2022 18:42,IT,#80683 - Suspicious tool detected by Zscaler observed on source IP 113.173.39.22,Vietnam,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to security officer Eason XIA
+**As per HUYNH TAN Vu, Metamask extension removed for username 'nghia.tranthe@saint-gobain.com' | Waiting for confirmation for other system
+**Waiting for additional information"
+7/14/2022 22:50,IT,#80710 - Injection attack detected containing HTTP SQL Injection Attempt on host 'LT131039',India,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Pratik PAWAR
+**Waiting for additional information"
+7/14/2022 23:22,IT,#80713 - Suspicious file download on source IP 10.158.128.151,United kingdom,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer David SISSONS
+**Patrick Cresswell tried contacting the user
+**Waiting for additional information"
+7/15/2022 0:42,IT,#80721 - Injection attack detected containing HTTP SQL Injection Attempt on host 'lt051719',Brazil,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Ademir Aparecido Ribeiro CAMPOS
+**Waiting for additional information"
+7/15/2022 1:33,IT,#80723 - Defense evasion technique detected by CrowdStrike on host 'LT081026',Germany,Low,On-Hold,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Edmund CLEUVERS
+**As confirmed by Paul Cebzan, The user received a mail that was sent by the consumer with attachments | The user tried to open the attachment | It tried to open a PDF file in chrome | The email has been deleted but Paul tried restoring the deleted mail | CyberSOC raised some queries to be resolved
+**Waiting for additional information"
+7/15/2022 6:43,IT,#80741 - Suspicious file detected by Crowd strike on hostname 'CHRYSOLAP57',Chryso,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Christian Lutz
+**Waiting for additional information"
+7/15/2022 14:05,IT,"#80743 - Defense evasion technique detected by CrowdStrike on host LT079984
+
+",Brazil,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Aparecido Ribeiro CAMPOS
+**Waiting for additional information"
+7/15/2022 14:56,IT,#80753 - Suspicious file detected on host K01LT-XZF017,China,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Eason XIA
+**Waiting for additional Information"
+7/15/2022 12:27,IT,#80759 - Suspicious tool detected by Zscaler from source IP 106.209.185.188,India,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Pratik Pawar
+**Waiting for additional information"
+7/15/2022 12:47,IT,#80771 - Suspicious file detected by Crowd strike on hostname 'K09LT-SH0652',China,Low,On-Going,Suspicious System behavior,"**1 System involved
+**Remediation actions sent to the security officer Eason XIA
+**Waiting for additional information"
+7/15/2022 14:45,IT,#80773 - Suspicious file detected on Host LT150156,India,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Pratik PAWAR
+**Waiting for additional information"
+7/15/2022 15:17,IT,#80776 - Suspicious file detected by Crowd strike on hostname 'AN1LTPF26CQHK',South Africa,Low,On-Going,Suspicious System behavior,"**1 System involved
+**Remediation actions sent to the security officer Ruan Van Der Merwe
+**Waiting for additional information"
+7/15/2022 15:46,IT,#80779 - Suspicious file detected by Crowd strike on hostname K01LT-XZF084,China,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Eason XIA
+**Waiting for additional information"
+7/15/2022 19:23,IT,#80792 - Suspicious execution detected on host LT141726,"Slovak Republic	",Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Jan CHALOUPECKY
+**Waiting for additional information"
+7/15/2022 15:07,IT,#780590 - Threat Hunting - Suspicious Activity - CUKSVWEBHUD021,United Kingdom,Medium,On-Going,Threat Hunting,"**1 server involved
+**Remediation actions sent to the security officer David SISSONS
+**Waiting for additional information"
+7/15/2022 23:09,IT,#80798 - Suspicious process detected on host LT110889,Germany,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Edmund CLEUVERS
+**Waiting for additional information"
+7/15/2022 22:20,IT,#80803 - File Share Enumeration by account ampsv010rep0d,France - IBM,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Abdelrahim Boulahya
+**As confirmed by Sathishkumar Loganathan, they validated the file share enumerations as legitimate ones
+**CyberSOC requested to share the role of source system also
+**Waiting for additional information"
+7/15/2022 20:19,IT,#80808 - Suspicious file detected by Crowdstrike on host LT162565,Spain,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to security officer Alberto CARNICERO CÁCERES
+**Waiting for additional information"
+7/16/2022 1:06,IT,#80816 - Suspicious file detected on host LT110021,United Kingdom,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer David SISSONS
+**Waiting for additional information"
+7/15/2022 23:47,IT,#80829 - Credential access attempt detected by CrowdStrike on Hostname 'DT090627',Brazil,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Ademir Aparecido Ribeiro CAMPOS
+**Waiting for additional information"
+7/16/2022 11:17,IT,#80853 - Defense evasion technique detected by CrowdStrike on host 'LT148632',Mexico,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Ademir Aparecido Ribeiro CAMPOS
+**Waiting for additional information"
+7/16/2022 13:18,IT,#80860 - Defense evasion technique observed on host K07LT-SH397,China,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Eason XIA
+**Waiting for additional information"
+7/16/2022 22:47,IT,#80869 - An ASLR bypass attempt was blocked on host DESKTOP-SU13A3R,LATAM acquisitions,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Ademir Aparecido Ribeiro CAMPOS
+**Waiting for additional information"
+7/17/2022 3:22,IT,#80881 - Injection attack detected containing HTTP SQL Injection Attempt on Host dt125285,Poland,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Tomasz KOWAL
+**Waiting for additional information"
+7/17/2022 6:09,IT,#80891 - Suspicious file detected on host AN1LTPF13RGPH,South Africa,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Ruan Van Der Merwe
+**Waiting for additional information"
+7/17/2022 19:37,IT,#80918 - HCK Suspicious GitHub tool detected by Zscaler from source IP 103.88.77.151,India,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Pratik PAWAR
+**Waiting for additional information"
+7/18/2022 5:38,IT,#80926 - Injection attack detected containing IBM WebSphere Faultactor Cross-Site Scripting Vulnerability,Sweden,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Niklas MALMQVIST
+**Local IT team is investigating
+**Waiting for additional information"
+7/18/2022 5:48,IT,#80933 - Suspicious file detected by Crowdstrike on host K27LT-ZZ58,China,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Eason XIA
+**Waiting for additional information"
+7/18/2022 15:58,IT,"#80943 - Suspicious file detected by Crowdstrike on host K08WS-PPL179
+
+",China,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to security officer Eason XIA
+**Waiting for additional information"
+7/18/2022 13:49,IT,#80958 - Suspicious file detected on host 'AN4LTSOK511',Egypt,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Enis Simsek
+**Waiting for additional information"
+7/18/2022 13:56,IT,#80961 - Suspicious file detected on host AN4LTSOK464,Egypt,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Enis Simsek
+**Waiting for additional information"
+7/18/2022 14:43,IT,#80965 - Suspicious file detected on host K01LT-PF3P2GYJ,China,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Eason XIA
+**Waiting for additional information"
+7/18/2022 15:01,IT,#80969 - Suspicious file detected on host K09LT-SH0613,China,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Eason XIA
+**Waiting for additional information"
+7/18/2022 15:15,IT,#80970 - Data Smuggler activity observed from Source IP 10.155.52.59 towards external domain minio-customerlogs.eu.cloud.talend.com,France - Capgemini,Medium,On-Going,Suspicious System behavior,"**1 server involved
+**Remediation actions sent to the security officer Abdelrahim Boulahya
+** Local IT team is investigating
+**Waiting for additional information"
+7/18/2022 15:19,IT,#80971 - Suspicious file detected by Crowdstrike on Hostname 'LT130526',Poland,Low,On-Going,Suspicious System behavior,"**1 server involved
+**Remediation actions sent to the security officer Tomasz KOWAL
+**Waiting for additional information"
+7/18/2022 16:31,IT,#80973 - Suspicious file Detected on host K01LT-PC2AF5D1,China,Low,On-Going,Suspicious System behavior,"**1 System involved
+**Remediation actions sent to the security officer Eason XIA,
+**Waiting for additional information"
+7/18/2022 16:18,IT,#80975 - Suspicious file detected on host LT152199,France,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Jean Baptiste MATHOT
+**Waiting for additional information"
+7/19/2022 0:09,IT,#80985 - Suspicious activity detected on Host LT008744,Romania,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Tomasz KOWAL
+**Waiting for additional information"
+7/18/2022 22:33,IT,#80983 - Suspicious activity detected on Host LT123263,Spain,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Pedro COSTA
+**Waiting for additional information"
+7/19/2022 0:48,IT,#81004 - Suspicious activity detected on Host LT059233,France,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Samek Aboubakar
+**Waiting for additional information"
+7/19/2022 15:42,IT,#81040 - Malware detected on Host by CrowdStrike on Host 'A42OPWTOOL',Lapeyre,Medium,On-Going,Malware,"**1 server involved
+**Remediation actions sent to the security officer Elias Rekeibi
+**Waiting for additional information"
+7/19/2022 16:02,IT,#81042 - Suspicious file detected by Crowd strike on hostname K07WS-SH123,China,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to Security officer Eason XIA 
+**Waiting for additional information"
+7/19/2022 18:17,IT,#81049 - Multiples IDS signatures detected to AD server from Source IP 10.127.96.132 towards multiple Destination IP's,Azure,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Jean-Philippe Bialoblocki
+**Waiting for additional information"
+7/19/2022 17:16,IT,"#81051 - Suspicious SMTP traffic seen from internal to external destination from Source IP 10.139.72.13 towards multiple external Destination IPs on Port 25
+
+",France - IBM,Low,On-Going,Suspicious System behavior,"**1 server involved
+**Remediation actions sent to the security officer Abdelrahim Boulahya
+**Waiting for additional information"
+7/19/2022 17:25,IT,#81053 - Execution of Blacklisted App detected by CrowdStrike on LT031097,Spain,Low,On-Going,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Pedro COSTA
+**As per FERREIRA DA COSTA, he shared this detection with it manager | waiting for feedback, it seems the user used an external USB to run the blacklisted application anydesk
+**Waiting for additional information "
+7/18/2022 21:19,IT,#80995 - Suspicious file detected on host LT097209,United States,Low,Closed,Suspicious System behavior,"**1 system involved
+**Remediation actions sent to the security officer Brian BOWER
+**As per Monteleone Anthony,the files was downloaded by mistakenly and has been deleted now"
+7/18/2022 21:47,IT,#80999 - Execution of Blacklisted App detected by CrowdStrike on Host LT131366,Germany,Low,Closed,Suspicious System behavior,"**1 System involved
+**Remediation actions sent to the security officer Edmund CLEUVERS
+**As confirmed by Paul Cebzan, It was an Old USB Stick | The data on the USB Stick was from 2017 | The user wanted to check what was on it, he does not need any data or software from the Stick and has removed it from the PC | They have told him that in the future any USB Stick that will be connected to the pc should first be connected to a Sanitization station"
+12/23/2020 12:54,INM,Alert ID: 42 | Sensor Name: INM-FR1765-Foug | Suspicion of Name Queries attributing to Conficker Malware - 172.17.1.103,France,Medium,On-Hold,Malware,"**Multiple Systems Involved
+**Remediation steps sent to ISSO Olivier Obtel via mail
+**Site scanned the systems using Trend Micro which fixed the issue in few assets since MalwareBytes and McAfee not supported | As per ISSO, the machines have write protection disabled and with TrendMicro Scan they didn't find anything |They will be checking with Kaspersky
+**Jeremy will visit site in third week of September to get machines cleaned with the help of local team""
+
+"
+10/28/2021 9:43,INM,Alert ID: 1533 | Sensor Name: INM-PL0010-Gliwice | Excessive SMB Login Attempts - 10.219.102.210,Poland,Low,On-Going,Suspicious System behavior,"**1 System Involved 
+**Remediation steps sent to ISSO Frederic Prudhomme
+**ISSO have send the details to Local team and request for update or actions
+**Incident was kept on hold as Nicolas was checking with ISSO regarding this type of Incident earlier
+**Discussion with Nicolas is finished and team is awaiting for ISSO update"
+10/29/2021 13:01,INM,Alert ID: 1563 | Sensor Name: INM-PL0010-Gliwice | Excessive SMB Login Attempts - 200.1.1.243,Poland,Low,On-Going,Suspicious System behavior,"**1 System Involved
+**Remediation steps sent to ISSO Frederic Prudhomme
+?**ISSO have send the details to Local team and request for update or actions
+**Incident was kept on hold as Nicolas was checking with ISSO regarding this type of Incident earlier
+**Discussion with Nicolas is finished and team is awaiting for ISSO update"
+12/20/2021 11:18,INM,Alert ID: 171895 | Sensor Name: INM-DK0017-Vamdrup | Excessive SMB login attempts - 172.23.1.49,Denmark,Low,On-Going,Suspicious System behavior,"**1 System Involved
+**Remediation steps sent to ISSO Frederic Prudhomme
+**ISSO have send the details to Local team and request for update or actions
+**Incident was kept on hold as Nicolas was checking with ISSO regarding this type of Incident earlier
+**Discussion with Nicolas is finished and team is awaiting for ISSO update"
+12/29/2021 9:51,INM,Alert ID: 174176 | Sensor Name: INM-DK0017-Vamdrup | Excessive Login Attempts - 172.20.5.202,Denmark,Low,On-Going,Suspicious System behavior,"**1 System Involved
+**Remediation steps sent to ISSO Frederic Prudhomme
+**ISSO have send the details to local team and requested for further update
+**Incident was kept on hold as Nicolas was checking with ISSO regarding this type of Incident earlier
+**Discussion with Nicolas is finished and team is awaiting for ISSO update"
+2/24/2022 19:02,INM,Alert ID: 872 | Sensor Name: INM-IT0060-Vidalengo | Excessive SMB Login Attempts - 10.236.27.104,Italy,Low,On-Going,Suspicious System behavior,"**1 System Involved
+**Remediation steps sent to ISSO Frederic Prudhomme
+**Incident was kept on hold as Nicolas was checking with ISSO regarding this type of Incident earlier
+**Discussion with Nicolas is finished and team is awaiting for ISSO update"
+2/24/2022 19:23,INM,Alert ID: 874 | Sensor Name: INM-IT0060-Vidalengo | Excessive SMB Login Attempts - 10.236.27.16,Italy,Low,On-Going,Suspicious System behavior,"**2 Systems Involved
+**Remediation steps sent to ISSO Frederic Prudhomme
+**Incident was kept on hold as Nicolas was checking with ISSO regarding this type of Incident earlier
+**Discussion with Nicolas is finished and team is awaiting for ISSO update"
+3/15/2022 20:21,INM,Alert ID: 3290 | Sensor Name: INM-PL0010-Gliwice | Excessive Login Attempts - 200.1.1.210,Poland,Low,On-Going,Suspicious System behavior,"**1 System Involved
+**Remediation steps sent to ISSO Frederic Prudhomme
+**ISSO provided an update on scanning/programming activity and INM Team requested ISSO to provide a relevant update on this incident
+**Incident was kept on hold as Nicolas was checking with ISSO regarding this type of Incident earlier
+**Discussion with Nicolas is finished and team is awaiting for ISSO update"
+3/21/2022 9:51,INM,Alert ID: 1094 | Sensor Name: INM-DE0208-Ladenburg | Excessive SMB Login Attempts - 10.161.48.19,Germany,Low,On-Going,Suspicious System behavior,"**1 System Involved
+**Remediation steps sent to ISSO Frederic Prudhomme
+**Incident was kept on hold as Nicolas was checking with ISSO regarding this type of Incident earlier
+**Discussion with Nicolas is finished and team is awaiting for ISSO update"
+3/28/2022 10:39,INM,Alert ID: 3556 | Sensor Name: INM-PL0010-Gliwice | Excessive Login Attempts - 10.219.189.196,Poland,Low,On-Going,Suspicious System behavior,"**1 System Involved
+**Remediation steps sent to ISSO Frederic Prudhomme
+**Incident was kept on hold as Nicolas was checking with ISSO regarding this type of Incident earlier
+**Discussion with Nicolas is finished and team is awaiting for ISSO update"
+3/28/2022 17:03,INM,Alert ID: 12 | Sensor Name: INM-US0280-Seattle | Suspicion of Name Queries attributing to Conficker Malware - 10.22.36.104 and 10.44.36.2,USA,Medium,On-Going,Malware,"**2 Systems Involved
+**Remediation steps sent to ISSO David L Dauphinais
+**Devices where scanned by TrendMicro USB Stick and the scanned result shows threats detected
+**Mohamed Sunesra from AVSupport is assisting the site to eradicate the threats
+**ISSO requested Carrie to work with local IT Service team to remove the threats from devices
+**Awaiting more information from user"
+4/1/2022 17:56,INM,Alert ID: 3852 | Sensor Name: INM-PL0010-Gliwice | Excessive SMB login attempts - 200.1.1.210,Poland,Low,On-Going,Suspicious System behavior,"**1 System Involved
+**Remediation steps sent to ISSO Frederic Prudhomme
+**Incident was kept on hold as Nicolas was checking with ISSO regarding this type of Incident earlier
+**Discussion with Nicolas is finished and team is awaiting for ISSO update"
+4/5/2022 13:36,INM,Alert ID: 4275 | Sensor Name: INM-US0296-Moundsville | Excessive SMB Login Attempts performed by multiple systems,USA,Low,On-Going,Suspicious System behavior,"**Multiple Systems Involved
+**Remediation steps sent to ISSO David L Dauphinais
+**David has asked plant to investigate further and he has sent an message for them to provide an update
+**As per site personnel John T Quinn they made a configuration mistake in assigning too many functions to one administrator service account (SCADA/ScadaAdmin2016), verses separating into several service accounts | They need to go back and find all applications that we assigned this account to and begin separating into other service accounts | Every now and then this account gets locked out from conflicted use
+**INM Team has informed to check with SGTS or local IT Team regarding this issue and proposed to create temporary Alert Exclusion till the duration the issue is fixed
+**Awaiting more information from user"
+4/8/2022 19:59,INM,Alert ID: 9537 | Sensor Name: INM-US0218-Hagerstown | Excessive SMB Login Attempts - 10.180.39.204,USA,Medium,On-Going,Suspicious System behavior,"**1 System Involved
+**Remediation steps sent to ISSO David L Dauphinais
+**David has asked plant to investigate further
+**Awaiting for more information from user"
+4/11/2022 10:39,INM,Alert ID: 9633 | Sensor Name: INM-US0218-Hagerstown | Excessive SMB Login Attempts - 10.180.36.1,USA,Low,On-Going,Suspicious System behavior,"**Multiple Systems Involved
+**Remediation steps sent to ISSO David L Dauphinais
+**Follow up done by ISSO with site personnel Larry as he suspects it would be a bad password for the account name involved in the Incident reported
+**ISSO sent alert information to local contacts for further analysis
+**Awaiting more information from user"
+4/25/2022 14:54,INM,Alert ID: 196096 | Sensor Name: INM-DK0017-Vamdrup | Excessive SMB login attempts - 10.226.169.48,Denmark,Low,On-Going,Suspicious System behavior,"**1 System Involved
+**Remediation steps sent to ISSO Frederic Prudhomme
+**Incident was kept on hold as Nicolas was checking with ISSO regarding this type of Incident earlier
+**Discussion with Nicolas is finished and team is awaiting for ISSO update"
+4/26/2022 19:23,INM,Alert ID: 4808 | Sensor Name: INM-PL0010-Gliwice | Excessive SMB login attempts - 200.1.1.10,Poland,Low,On-Going,Suspicious System behavior,"**1 System Involved
+**Remediation steps sent to ISSO Frederic Prudhomme
+**Frederic has asked the local team regarding this incident
+**Awaiting response from user"
+4/28/2022 18:11,INM,Alert ID: 831 | Sensor Name: INM-IN0010-Sriperumbu-Sol | Unauthorized device with source IP 10.87.82.246 scanned the ports of the destination device 10.87.7.253,India,Medium,On-Going,Suspicious System behavior,"**1 System Involved
+**Remediation steps sent to ISSO Rahul Shah
+**ISSO Rahul Shah requested investigation from local team
+**HariKumar mentioned Data was being transferred through FTPS port
+**Awaiting response from user"
+5/10/2022 10:41,INM,Alert ID: 1550 | Sensor Name: INM-US0144-Oxford | Suspicion of Denial Of Service Attack - 10.181.111.9,USA,Low,On-Going,Suspicious System behavior,"**1 System Involved
+**Remediation steps sent to ISSO David L Dauphinais
+**Awaiting response from user"
+5/4/2022 10:19,INM,Alert ID: 1787 | Sensor Name: INM-US0270-Carrollton | Source IP 10.44.38.202 scanned the subnet 10.181.0.0/16,USA,Low,On-Going,Suspicious System behavior,"**1 System Involved
+**Remediation steps sent to ISSO David L Dauphinais
+**David (ISSO) is following up with local team about the alert
+**Awaiting more information"
+5/4/2022 10:01,INM,Alert ID: 1788 | Sensor Name: INM-US0270-Carrollton | Source IP 10.181.159.4 scanned the subnet 10.44.0.0/16,USA,Low,On-Going,Suspicious System behavior,"**1 System Involved
+**Remediation steps sent to ISSO David L Dauphinais
+**David (ISSO) is following up with local team about the alert
+**Awaiting more information"
+5/18/2022 10:19,INM,Alert ID: 1041 | Sensor Name: INM-BR0003-Barra-Mansa | Unauthorized device with source IP 10.198.97.235 scanned the subnet 10.198.0.0/16,Brazil,Medium,On-Going,Suspicious System behavior,"**1 System Involved
+**Remediation steps sent to ISSO Olivier Obtel
+**Awaiting for more information"
+5/20/2022 13:31,INM,Alert ID: 205264 | Sensor Name: INM-DK0017-Vamdrup | Suspicion of Denial Of Service Attack - 10.103.11.23,Denmark,Low,On-Going,Suspicious System behavior,"**1 System Involved
+**Remediation steps sent to ISSO Frederic Prudhomme
+**Awaiting response from user"
+5/23/2022 10:02,INM,Alert ID: 205589 | Sensor Name: INM-DK0017-Vamdrup | Source IP 172.31.249.213 scanned the subnet 17.248.0.0/16,Denmark,Low,On-Going,Suspicious System behavior,"**1 System Involved
+**Remediation steps sent to ISSO Frederic Prudhomme
+**Awaiting response from user"
+5/23/2022 18:05,INM,Alert ID: 207012 | Sensor Name: INM-DK0017-Vamdrup | Excessive SMB Login Attempts - 172.23.1.30,Denmark,Low,On-Going,Suspicious System behavior,"**1 System Involved
+**Remediation steps sent to ISSO Frederic Prudhomme
+**Incident was kept on hold as Nicolas was checking with ISSO regarding this type of Incident earlier
+**Discussion with Nicolas is finished and team is awaiting for ISSO update"
+5/25/2022 9:41,INM,Alert ID: 11833 | Sensor Name: INM-US0218-Hagerstown | Excessive SMB Login Attempts - 10.180.39.113,USA,Low,On-Going,Suspicious System behavior,"**1 System Involved
+**Remediation steps sent to ISSO David L Dauphinais
+**Awaiting more information from the user"
+5/31/2022 16:42,INM,Alert ID: 5513 | Sensor Name: INM-PL0010-Gliwice | Unauthorized PLC Program Upload - 200.1.1.219,Poland,Low,On-Going,Suspicious System behavior,"**1 System Involved
+**Remediation steps sent to ISSO Frederic Prudhomme
+**Awaiting response from user"
+5/31/2022 18:57,INM,Alert ID: 210432 | Sensor Name: INM-DK0017-Vamdrup |  Suspicion of Denial of Service Attack - 172.23.1.11,Denmark,Low,On-Going,Suspicious System behavior,"**1 System Involved
+**Remediation steps sent to ISSO Frederic Prudhomme
+**Awaiting response from user"
+6/1/2022 20:14,INM,Alert ID: 2597 | Sensor Name: INM-DE0446-Brieselang | Excessive Login Attempts - 10.160.132.236,Germany,Medium,On-Going,Suspicious System behavior,"**1 System Involved
+**Remediation steps sent to ISSO Frederic Prudhomme
+**Awaiting response from user"
+6/6/2022 9:52,INM,Alert ID: 3212 | Sensor Name: INM-DE0036-Bergisch | Suspicion of Denial of Service Attack - 10.161.48.146,Germany,Low,On-Going,Suspicious System behavior,"**1 System Involved
+**Remediation steps sent to ISSO Frederic Prudhomme
+**Awaiting response from user"
+6/8/2022 9:47,INM,Alert ID: 1648 | Sensor Name: INM-BR0003-Barra-Mansa | Excessive SMB login attempts - 10.199.19.133,BRAZIL,Medium,On-Going,Suspicious System behavior,"**1 System Involved
+**Remediation steps sent to ISSO Olivier Obtel
+**Awaiting response from user"
+6/10/2022 11:41,INM,Alert ID: 3035 | Sensor Name: INM-IT0060-Vidalengo | Illegal Connection Attempt on Port 0 from multiple systems,Italy,Medium,On-Going,Suspicious System behavior,"**3 Systems Involved
+**Remediation steps sent to ISSO Frederic Prudhomme
+**Awaiting response from user"
+6/10/2022 17:34,INM,Alert ID: 3046 | Sensor Name: INM-IT0060-Vidalengo | Unauthorized PLC Program Upload - 10.236.27.98,Italy,Medium,On-Going,Suspicious System behavior,"**1 System Involved
+**Remediation steps sent to ISSO Frederic Prudhomme
+**Awaiting response from user"
+6/13/2022 10:41,INM,Alert ID: 215725 | Sensor Name: INM-DK0017-Vamdrup | Excessive Login Attempts - 172.23.1.33,Denmark,Low,On-Going,Suspicious System behavior,"**1 System Involved
+**Remediation steps sent to ISSO Frederic Prudhomme
+**Awaiting response from user"
+6/13/2022 11:24,INM,"Alert ID: 2134 | Sensor Name: INM-DE0208-Ladenburg | Port Scan Detected - 10.159.85.201
+
+",Germany,Low,On-Going,Suspicious System behavior,"**1 System Involved
+**Remediation steps sent to ISSO Frederic Prudhomme
+**Awaiting response from user"
+6/13/2022 12:08,INM,Alert ID: 6533 | Sensor Name: INM-US0049-Chowchilla | Unauthorized PLC Program Upload done by 192.168.110.238 on multiple PLCs,USA,Medium,On-Going,Suspicious System behavior,"**1 System Involved
+**Remediation steps sent to ISSO David L Dauphinais
+**David L Dauphinais has asked Dave whether this was an authorized activity and can the source device be marked as programming device
+**Awaiting response from user"
+6/13/2022 11:28,INM,Alert ID: 28156 | Sensor Name: INM-UK1035-Robertsbridge | Excessive SMB login attempts - 10.213.36.137,United Kingdom,Low,On-Going,Suspicious System behavior,"**1 System Involved
+**Remediation steps sent to ISSO Frederic Prudhomme
+**Awaiting response from user"
+6/13/2022 19:09,INM,Alert ID: 4193 | Sensor Name: INM-CA0024-Montreal | Excessive SMB login attempts - 10.44.21.96,Canada,Low,On-Going,Suspicious System behavior,"**1 System Involved
+**Remediation steps sent to ISSO David L Dauphinais
+**Awaiting for more information from the user"
+6/14/2022 15:24,INM,Alert ID: 215754 | Sensor Name: INM-DK0017-Vamdrup | Unauthorized PLC Configuration Write - 172.31.0.219,Denmark,Low,On-Going,Suspicious System behavior,"**1 System Involved
+**Remediation steps sent to ISSO Frederic Prudhomme
+**Awaiting response from user"
+6/15/2022 16:55,INM,Alert ID: 215785 | Sensor Name: INM-DK0017-Vamdrup | Excessive SMB login attempts - 172.31.3.10,Denmark,Low,On-Going,Suspicious System behavior,"**1 System Involved
+**Remediation steps sent to ISSO Frederic Prudhomme
+**Awaiting response from user"
+6/15/2022 18:10,INM,Alert ID: 10966 | Sensor Name: INM-US0046-Athens | Excessive SMB login attempts - 10.180.90.249,USA,Low,On-Going,Suspicious System behavior,"**1 System Involved
+**Remediation steps sent to ISSO David Dauphinais
+**Awaiting response from user"
+6/20/2022 11:51,INM,Alert ID: 7781 | Sensor Name: INM-US0049-Chowchilla | Source IP 10.181.170.14 scanned the subnet 10.180.0.0/16,USA,Low,On-Going,Suspicious System behavior,"**1 System Involved
+**Remediation steps sent to ISSO David L Dauphinais
+**Followup done by ISSO with site personnel's Varun and Ken
+**Awaiting more information from user"
+6/21/2022 19:27,INM,Alert ID: 5715 | Sensor Name: INM-CA0024-Montreal | Excessive SMB login attempts - 10.44.21.96,Canada,Low,On-Going,Suspicious System behavior,"**1 System Involved
+**Remediation steps sent to ISSO David L Dauphinais
+**Awaiting response from user"
+6/22/2022 13:28,INM,Alert ID: 215933 | Sensor Name: INM-DK0017-Vamdrup | Suspicion of Denial of Service Attack - 10.103.11.23,Denmark,Low,On-Going,Suspicious System behavior,"**1 System Involved
+**Remediation steps sent to ISSO Frederic Prudhomme
+**Awaiting response from user"
+6/23/2022 10:49,INM,Alert ID: 30681 | Sensor Name: INM-UK1035-Robertsbridge | Excessive Login Attempts - 10.213.36.106,United Kingdom,Low,On-Going,Suspicious System behavior,"**1 System Involved
+**Remediation steps sent to ISSO Frederic Prudhomme
+**Awaiting response from user"
+6/23/2022 11:48,INM,Alert ID: 4092 | Sensor Name: INM-US0270-Carrollton | Unauthorized PLC Program Upload - 10.181.159.2,USA,Low,On-Going,Suspicious System behavior,"**1 System Involved
+**Recommendation steps sent to ISSO David L Dauphinais
+**Awaiting response from user"
+6/28/2022 18:14,INM,Alert ID: 215948 | Sensor Name: INM-DK0017-Vamdrup | Source IP 172.18.2.201 scanned the subnet 17.248.0.0/16,Denmark,Low,On-Going,Suspicious System behavior,"**1 System Involved
+**Remediation steps sent to ISSO Frederic Prudhomme
+**Awaiting response from user"
+7/1/2022 9:50,INM,Alert ID: 37137 | Sensor Name: INM-US0050-KansasCity | Unauthorized PLC Program Upload on 192.168.210.107 by 10.180.93.231,USA,Low,On-Going,Suspicious System behavior,"**1 System Involved
+**Remediation steps sent to ISSO David L Dauphinais
+**Awaiting more information from the user"
+7/1/2022 21:15,INM,Alert ID: 1540 | Sensor Name: INM-IN0039-Jhagadia | Source IP 10.87.105.34 Scanned IP 10.87.27.218,India,Low,On-Going,Suspicious System behavior,"**1 System Involved
+**Remediation steps sent to ISSO Said Feghoul
+**Vicky Khandekar has requested the plant to investigate
+**Awaiting response from user"
+7/5/2022 18:50,INM,Alert ID: 5318 | Sensor Name: INM-IN0010-Sriperumbudur | Source IP 10.87.79.104 scanned IP 10.87.85.231,India,Low,On-Going,Suspicious System behavior,"**1 System Involved
+**Remediation steps sent to ISSO Said Feghoul
+**Awaiting response from user"
+7/6/2022 7:30,INM,Alert ID: 12354 | Sensor Name: INM-US0218-Hagerstown | Unauthorized PLC Program Upload performed by source IP 10.180.39.219,USA,Low,On-Going,Suspicious System behavior,"**1 System Involved
+**Remediation steps sent to ISSO David L Dauphinais
+**Awaiting more information from the user"
+7/6/2022 20:35,INM,Alert ID: 215954 | Sensor Name: INM-DK0017-Vamdrup | Source IP 172.31.0.212 scanned the subnet 172.21.0.0/16,Denmark,Low,On-Going,Suspicious System behavior,"**1 System Involved
+**Remediation steps sent to ISSO Frederic Prudhomme
+**Awaiting response from user"
+7/7/2022 18:34,INM,Alert ID: 34410 | Sensor Name: INM-US0174-Shakopee | Suspicion of Denial of Service Attack - 192.168.10.198,USA,Low,On-Going,Suspicious System behavior,"**1 System involved
+**Remediation steps sent to ISSO David L Dauphinais
+**Awaiting response from user"
+7/7/2022 20:32,INM,Alert ID: 34937 | Sensor Name: INM-US0174-Shakopee | Unauthorized PLC programming performed by the source device 192.168.10.8,USA,Low,On-Going,Suspicious System behavior,"**1 System Involved
+**Remediation steps sent to ISSO David L Dauphinais
+**Awaiting response from user"
+7/7/2022 21:00,INM,Alert ID: 19349 | Sensor Name: INM-FR1735-Sully | Source device 10.128.27.45 scanned subnet 192.4.0.0/16,France,Low,On-Going,Suspicious System behavior,"**1 System Involved
+**Remediation steps sent to ISSO Christian Luetz
+**ISSO forwarded the information to site for further analysis
+**Bruno Salvi has is awaiting response from Zeiss
+**Awaiting response from user"
+7/8/2022 15:50,INM,Alert ID: 215955 | Sensor Name: INM-DK0017-Vamdrup | Suspicion of Denial Of Service Attack - 10.226.169.178,Denmark,Low,On-Going,Suspicious System behavior,"**1 System Involved
+**Remediation steps sent to ISSO Frederic Prudhomme
+**Awaiting response from user"
+7/8/2022 21:47,INM,Alert ID: 2146 | Sensor Name: INM-US0016-Beaverton | Source IP 10.177.108.110 scanned subnet 10.177.0.0/16,USA,Low,On-Going,Suspicious System behavior,"**1 System Involved
+**Remediation steps sent to ISSO Jodi A Bain
+**As confirmed by Bain Jodi, He asked John Krzyzaniak Amanda Kasper & Justin Bruner to investigate and share their findings
+**Awaiting response from user"
+7/11/2022 20:47,INM,Alert ID: 3734 | Sensor Name: INM-US0144-Oxford | Port Scan Detected - 10.180.188.108,USA,Low,On-Going,Suspicious System behavior,"**1 System Involved
+**Remediation steps sent to ISSO David L Dauphinais
+**Awaiting response from the user"
+7/12/2022 17:25,INM,Alert ID: 3614 | Sensor Name: INM-AT0016-Steyr | Excessive SMB login attempts - 10.220.0.167,Austria,Low,On-Going,Suspicious System behavior,"**1 System Involved
+**Remediation steps sent to ISSO Christian Otto
+**Awaiting response from user"
+7/14/2022 18:25,INM,Alert ID: 10516 | Sensor Name: INM-IN0017-Chakan | Source IP 10.87.89.28 scanned IP 10.87.1.111,India,Low,On-Going,Suspicious System behavior,"**1 System Involved
+**Remediation steps sent to ISSO Christian Luetz
+**Awaiting response from user"
+7/15/2022 21:22,INM,Alert ID: 4257 | Sensor Name: INM-US0115-Milan | Source IP 10.180.142.5 scanned subnet 10.181.0.0/16,USA,Low,On-Going,Suspicious System behavior,"**1 System Involved
+**Remediation steps sent to ISSO David L Dauphinais
+**Awaiting response from user"
+7/15/2022 23:37,INM,Alert ID: 37877 | Sensor Name: INM-US0050-KansasCity | Source IP 10.180.93.10 scanned subnet 10.180.0.0/16,USA,Low,On-Going,Suspicious System behavior,"**1 System Involved
+**Remediation steps sent to ISSO David Dauphinais
+**Awaiting response from user"
+7/17/2022 6:00,INM,Alert ID: 427 | Sensor Name: INM-MX0045-Saltillo | Suspicion of Denial Of Service Attack - 10.201.48.165,Mexico,Low,On-Going,Suspicious System behavior,"**1 System Involved
+**Remediation steps sent to ISSO Said Feghoul
+**Awaiting response from user"
+7/19/2022 0:35,INM,Alert ID: 36641 | Sensor Name: INM-US0174-Shakopee | Suspicion of Denial of Service Attack - 10.181.30.42,USA,Low,On-Going,Suspicious System behavior,"**1 System involved
+**Remediation steps sent to ISSO David L Dauphinais
+**Awaiting response from user"
+7/19/2022 5:31,INM,Alert ID: 11703 | Sensor Name: INM-US0046-Athens | Source IP 10.180.90.10 scanned subnet 10.181.0.0/16,USA,Low,On-Going,Suspicious System behavior,"**1 System Involved
+**Remediation steps sent to ISSO David Dauphinais
+**Awaiting response from user"
